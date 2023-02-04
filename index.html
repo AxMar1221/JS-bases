@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <title>JavaScript</title>
+</head>
+<body>
+    <main>
+        <h1 class="display-1 text-center">JavaScrip de "0 a los detalles"</h1>
+        <h1 class="display-6 text-center">Legacy</h1>
+        <div class="container mt-3">
+            <div class="container text-center mt-2">
+                <button class="btn btn-outline-success btnShowAll"> Mostrar todos </button>
+                <button class="btn btn-outline-success btnHideAll"> Ocultar todos </button>
+            </div>
+
+            <div class="buttons text-center mt-2">
+                <button class="btn btn-outline-danger btn1"> Primitivos </button>
+                <button class="btn btn-outline-danger btn2"> Objetos </button>
+                <button class="btn btn-outline-danger btn3"> Valor por referencia Primitivos</button>
+                <button class="btn btn-outline-danger btn4"> Valor por referencia Objetos</button>
+            </div>
+
+            <div class="card text-bg-danger mt-2 text-center" style="display:none;" id="showHide1">
+                <div class="card-body">
+                    <h3>Primitivos</h3>
+                    <p id="num"></p>
+                    <p id="str"></p>
+                    <p id="bol"></p>
+                    <p id="und"></p>
+                    <p id="nul"></p>
+                </div>
+            </div>
+
+            <div class="card text-bg-danger mt-2 text-center" style="display:none;" id="showHide2">
+                <div class="card-body">
+                    <h3>Objetos</h3>
+                    <p id="obj1"></p>
+                    <p id="objC"></p>
+                </div>
+            </div>
+
+            <div class="card text-bg-danger mt-2 text-center" style="display:none;" id="showHide3">
+                <div class="card-body">
+                    <h4>Valor por referencia primitivos</h4>
+                    <p id="a1"></p>
+                    <p id="b1"></p>
+                    <p id="a2"></p>
+                    <p id="b2"></p>
+                </div>
+            </div>
+            
+            <div class="card text-bg-danger mt-2 text-center" style="display:none;" id="showHide4">
+                <div class="card-body">
+                    <h4>Valor por referencia objetos</h4>
+                    <p id="c1"></p>
+                    <p id="d1"></p>
+                    <p id="c2"></p>
+                    <p id="d2"></p>
+                    <p id="c3"></p>
+                    <p id="d3"></p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container mt-3">
+
+            <div class="buttons text-center">
+                <button class="btn btn-outline-warning btn5"> Notación de punto </button>
+                <button class="btn btn-outline-warning btn6"> Notación de corchete </button>
+                <button class="btn btn-outline-warning btn7"> 7 </button>
+                <button class="btn btn-outline-warning btn8"> 8 </button>
+            </div>
+
+            <div class="card text-bg-warning mt-2 text-center" style="display:none;" id="showHide5">
+                <div class="card-body">
+                    <h3>Notación de punto</h3>
+                    <p id="pName"></p>
+                    <p id="pCountry"></p>
+                    <p id="pAdress"></p>
+                </div>
+            </div>
+
+            <div class="card text-bg-warning mt-2 text-center" style="display:none;" id="showHide6">
+                <div class="card-body">
+                    <h3>Notación de corchete</h3>
+                    <p id="cName"></p>
+                    <p id="cCountry"></p>
+                    <p id="cAdress"></p>
+                </div>
+            </div>
+
+            <div class="card text-bg-warning mt-2 text-center" style="display:none;" id="showHide7">
+                <div class="card-body">
+                    <h4>Valor por referencia primitivos</h4>
+                    <p id="a1"></p>
+                    <p id="b1"></p>
+                    <p id="a2"></p>
+                    <p id="b2"></p>
+                </div>
+            </div>
+            
+            <div class="card text-bg-warning mt-2 text-center" style="display:none;" id="showHide8">
+                <div class="card-body">
+                    <h4>Valor por referencia objetos</h4>
+                    <p id="c1"></p>
+                    <p id="d1"></p>
+                    <p id="c2"></p>
+                    <p id="d2"></p>
+                    <p id="c3"></p>
+                    <p id="d3"></p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+    <script src="app1.js"></script>
+    <script src="app2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+</html>
